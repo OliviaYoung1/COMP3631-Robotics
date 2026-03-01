@@ -1,0 +1,34 @@
+[1.125s] Invoking command in '/uolstore/home/users/sc23oy/ros2_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/uolstore/home/users/sc23oy/ros2_ws/install/lab4:/uolstore/home/users/sc23oy/ros2_ws/install/lab3:/uolstore/home/users/sc23oy/ros2_ws/install/lab2:/uolstore/home/users/sc23oy/ros2_ws/install/lab1:/opt/ros/humble /usr/bin/cmake --build /uolstore/home/users/sc23oy/ros2_ws/build/turtlebot3_fake_node -- -j48 -l48
+[3.398s] [100%] Built target turtlebot3_fake_node
+[4.173s] Invoked command in '/uolstore/home/users/sc23oy/ros2_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/uolstore/home/users/sc23oy/ros2_ws/install/lab4:/uolstore/home/users/sc23oy/ros2_ws/install/lab3:/uolstore/home/users/sc23oy/ros2_ws/install/lab2:/uolstore/home/users/sc23oy/ros2_ws/install/lab1:/opt/ros/humble /usr/bin/cmake --build /uolstore/home/users/sc23oy/ros2_ws/build/turtlebot3_fake_node -- -j48 -l48
+[4.262s] Invoking command in '/uolstore/home/users/sc23oy/ros2_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/uolstore/home/users/sc23oy/ros2_ws/install/lab4:/uolstore/home/users/sc23oy/ros2_ws/install/lab3:/uolstore/home/users/sc23oy/ros2_ws/install/lab2:/uolstore/home/users/sc23oy/ros2_ws/install/lab1:/opt/ros/humble /usr/bin/cmake --install /uolstore/home/users/sc23oy/ros2_ws/build/turtlebot3_fake_node
+[4.284s] -- Install configuration: ""
+[4.287s] -- Up-to-date: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node
+[4.293s] -- Up-to-date: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch
+[4.294s] -- Up-to-date: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py
+[4.295s] -- Up-to-date: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py
+[4.296s] -- Up-to-date: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param
+[4.298s] -- Up-to-date: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml
+[4.298s] -- Up-to-date: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml
+[4.300s] -- Up-to-date: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml
+[4.300s] -- Up-to-date: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_fake_node/include/
+[4.302s] -- Up-to-date: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node
+[4.303s] -- Up-to-date: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp
+[4.304s] -- Up-to-date: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node
+[4.305s] -- Up-to-date: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node
+[4.305s] -- Up-to-date: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh
+[4.306s] -- Up-to-date: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv
+[4.307s] -- Up-to-date: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh
+[4.308s] -- Up-to-date: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv
+[4.308s] -- Up-to-date: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash
+[4.309s] -- Up-to-date: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh
+[4.309s] -- Up-to-date: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh
+[4.310s] -- Up-to-date: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv
+[4.312s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv
+[4.319s] -- Up-to-date: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node
+[4.320s] -- Up-to-date: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.320s] -- Up-to-date: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.321s] -- Up-to-date: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake
+[4.321s] -- Up-to-date: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake
+[4.322s] -- Up-to-date: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml
+[4.327s] Invoked command in '/uolstore/home/users/sc23oy/ros2_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/uolstore/home/users/sc23oy/ros2_ws/install/lab4:/uolstore/home/users/sc23oy/ros2_ws/install/lab3:/uolstore/home/users/sc23oy/ros2_ws/install/lab2:/uolstore/home/users/sc23oy/ros2_ws/install/lab1:/opt/ros/humble /usr/bin/cmake --install /uolstore/home/users/sc23oy/ros2_ws/build/turtlebot3_fake_node

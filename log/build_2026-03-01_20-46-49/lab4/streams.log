@@ -1,0 +1,24 @@
+[4.580s] Invoking command in '/uolstore/home/users/sc23oy/ros2_ws/src/lab4': PYTHONPATH=/uolstore/home/users/sc23oy/ros2_ws/build/lab4/prefix_override:/uolstore/home/users/sc23oy/ros2_ws/install/lab4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lab4 build --build-base /uolstore/home/users/sc23oy/ros2_ws/build/lab4/build install --record /uolstore/home/users/sc23oy/ros2_ws/build/lab4/install.log --single-version-externally-managed
+[5.183s] running egg_info
+[5.184s] writing ../../build/lab4/lab4.egg-info/PKG-INFO
+[5.188s] writing dependency_links to ../../build/lab4/lab4.egg-info/dependency_links.txt
+[5.192s] writing entry points to ../../build/lab4/lab4.egg-info/entry_points.txt
+[5.194s] writing requirements to ../../build/lab4/lab4.egg-info/requires.txt
+[5.197s] writing top-level names to ../../build/lab4/lab4.egg-info/top_level.txt
+[5.205s] reading manifest file '../../build/lab4/lab4.egg-info/SOURCES.txt'
+[5.209s] writing manifest file '../../build/lab4/lab4.egg-info/SOURCES.txt'
+[5.212s] running build
+[5.213s] running build_py
+[5.213s] copying lab4/go_to_specific_point_on_map.py -> /uolstore/home/users/sc23oy/ros2_ws/build/lab4/build/lib/lab4
+[5.217s] running install
+[5.218s] running install_lib
+[5.220s] copying /uolstore/home/users/sc23oy/ros2_ws/build/lab4/build/lib/lab4/go_to_specific_point_on_map.py -> /uolstore/home/users/sc23oy/ros2_ws/install/lab4/lib/python3.10/site-packages/lab4
+[5.231s] byte-compiling /uolstore/home/users/sc23oy/ros2_ws/install/lab4/lib/python3.10/site-packages/lab4/go_to_specific_point_on_map.py to go_to_specific_point_on_map.cpython-310.pyc
+[5.237s] running install_data
+[5.239s] running install_egg_info
+[5.244s] removing '/uolstore/home/users/sc23oy/ros2_ws/install/lab4/lib/python3.10/site-packages/lab4-0.0.0-py3.10.egg-info' (and everything under it)
+[5.254s] Copying ../../build/lab4/lab4.egg-info to /uolstore/home/users/sc23oy/ros2_ws/install/lab4/lib/python3.10/site-packages/lab4-0.0.0-py3.10.egg-info
+[5.299s] running install_scripts
+[5.333s] Installing go_to_pose script to /uolstore/home/users/sc23oy/ros2_ws/install/lab4/lib/lab4
+[5.337s] writing list of installed files to '/uolstore/home/users/sc23oy/ros2_ws/build/lab4/install.log'
+[5.647s] Invoked command in '/uolstore/home/users/sc23oy/ros2_ws/src/lab4' returned '0': PYTHONPATH=/uolstore/home/users/sc23oy/ros2_ws/build/lab4/prefix_override:/uolstore/home/users/sc23oy/ros2_ws/install/lab4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lab4 build --build-base /uolstore/home/users/sc23oy/ros2_ws/build/lab4/build install --record /uolstore/home/users/sc23oy/ros2_ws/build/lab4/install.log --single-version-externally-managed
