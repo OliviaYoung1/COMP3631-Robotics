@@ -1,0 +1,15 @@
+[0.207s] Invoking command in '/uolstore/home/users/sc23oy/ros2_ws/build/turtlebot3_gazebo': PS1=[COMP3631] Singularity> \w $ /usr/bin/cmake /uolstore/home/users/sc23oy/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo
+[0.937s] -- Configuring incomplete, errors occurred!
+[0.937s] See also "/uolstore/home/users/sc23oy/ros2_ws/build/turtlebot3_gazebo/CMakeFiles/CMakeOutput.log".
+[0.937s] [31mCMake Error at /usr/share/cmake-3.22/Modules/CMakeDetermineCCompiler.cmake:49 (message):
+[0.937s]   Could not find compiler set in environment variable CC:
+[0.937s] 
+[0.937s]   
+[0.937s]   /uollinapps/v2/24-25/soc/packages/linux-rhel9-x86_64_v3/gcc-11.4.0/gcc-14.2.0-svuh5yskfnrwh537tvxvt642acswwlju/bin/gcc.
+[0.938s] Call Stack (most recent call first):
+[0.938s]   CMakeLists.txt:5 (project)
+[0.938s] 
+[0.938s] [0m
+[0.938s] [0mCMake Error: CMAKE_C_COMPILER not set, after EnableLanguage[0m
+[0.938s] [0mCMake Error: CMAKE_CXX_COMPILER not set, after EnableLanguage[0m
+[1.324s] Invoked command in '/uolstore/home/users/sc23oy/ros2_ws/build/turtlebot3_gazebo' returned '1': PS1=[COMP3631] Singularity> \w $ /usr/bin/cmake /uolstore/home/users/sc23oy/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo

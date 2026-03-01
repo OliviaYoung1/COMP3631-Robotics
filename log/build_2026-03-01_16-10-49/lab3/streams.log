@@ -1,0 +1,37 @@
+[1.655s] Invoking command in '/uolstore/home/users/sc23oy/ros2_ws/src/lab3': PS1=[COMP3631] Singularity> \w $ PYTHONPATH=/uolstore/home/users/sc23oy/ros2_ws/build/lab3/prefix_override:/uolstore/home/users/sc23oy/ros2_ws/install/lab3/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/lab3 build --build-base /uolstore/home/users/sc23oy/ros2_ws/build/lab3/build install --record /uolstore/home/users/sc23oy/ros2_ws/build/lab3/install.log --single-version-externally-managed
+[1.991s] running egg_info
+[1.992s] creating ../../build/lab3/lab3.egg-info
+[1.993s] writing ../../build/lab3/lab3.egg-info/PKG-INFO
+[1.999s] writing dependency_links to ../../build/lab3/lab3.egg-info/dependency_links.txt
+[2.001s] writing entry points to ../../build/lab3/lab3.egg-info/entry_points.txt
+[2.003s] writing requirements to ../../build/lab3/lab3.egg-info/requires.txt
+[2.005s] writing top-level names to ../../build/lab3/lab3.egg-info/top_level.txt
+[2.007s] writing manifest file '../../build/lab3/lab3.egg-info/SOURCES.txt'
+[2.014s] reading manifest file '../../build/lab3/lab3.egg-info/SOURCES.txt'
+[2.018s] writing manifest file '../../build/lab3/lab3.egg-info/SOURCES.txt'
+[2.019s] running build
+[2.019s] running build_py
+[2.020s] creating /uolstore/home/users/sc23oy/ros2_ws/build/lab3/build
+[2.021s] creating /uolstore/home/users/sc23oy/ros2_ws/build/lab3/build/lib
+[2.022s] creating /uolstore/home/users/sc23oy/ros2_ws/build/lab3/build/lib/lab3
+[2.024s] copying lab3/__init__.py -> /uolstore/home/users/sc23oy/ros2_ws/build/lab3/build/lib/lab3
+[2.027s] copying lab3/firstwalk.py -> /uolstore/home/users/sc23oy/ros2_ws/build/lab3/build/lib/lab3
+[2.031s] running install
+[2.031s] running install_lib
+[2.034s] creating /uolstore/home/users/sc23oy/ros2_ws/install/lab3/lib/python3.10/site-packages/lab3
+[2.035s] copying /uolstore/home/users/sc23oy/ros2_ws/build/lab3/build/lib/lab3/__init__.py -> /uolstore/home/users/sc23oy/ros2_ws/install/lab3/lib/python3.10/site-packages/lab3
+[2.039s] copying /uolstore/home/users/sc23oy/ros2_ws/build/lab3/build/lib/lab3/firstwalk.py -> /uolstore/home/users/sc23oy/ros2_ws/install/lab3/lib/python3.10/site-packages/lab3
+[2.045s] byte-compiling /uolstore/home/users/sc23oy/ros2_ws/install/lab3/lib/python3.10/site-packages/lab3/__init__.py to __init__.cpython-310.pyc
+[2.050s] byte-compiling /uolstore/home/users/sc23oy/ros2_ws/install/lab3/lib/python3.10/site-packages/lab3/firstwalk.py to firstwalk.cpython-310.pyc
+[2.055s] running install_data
+[2.056s] creating /uolstore/home/users/sc23oy/ros2_ws/install/lab3/share/ament_index
+[2.057s] creating /uolstore/home/users/sc23oy/ros2_ws/install/lab3/share/ament_index/resource_index
+[2.058s] creating /uolstore/home/users/sc23oy/ros2_ws/install/lab3/share/ament_index/resource_index/packages
+[2.059s] copying resource/lab3 -> /uolstore/home/users/sc23oy/ros2_ws/install/lab3/share/ament_index/resource_index/packages
+[2.062s] copying package.xml -> /uolstore/home/users/sc23oy/ros2_ws/install/lab3/share/lab3
+[2.066s] running install_egg_info
+[2.069s] Copying ../../build/lab3/lab3.egg-info to /uolstore/home/users/sc23oy/ros2_ws/install/lab3/lib/python3.10/site-packages/lab3-0.0.0-py3.10.egg-info
+[2.111s] running install_scripts
+[2.138s] Installing firstwalk script to /uolstore/home/users/sc23oy/ros2_ws/install/lab3/lib/lab3
+[2.142s] writing list of installed files to '/uolstore/home/users/sc23oy/ros2_ws/build/lab3/install.log'
+[2.198s] Invoked command in '/uolstore/home/users/sc23oy/ros2_ws/src/lab3' returned '0': PS1=[COMP3631] Singularity> \w $ PYTHONPATH=/uolstore/home/users/sc23oy/ros2_ws/build/lab3/prefix_override:/uolstore/home/users/sc23oy/ros2_ws/install/lab3/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/lab3 build --build-base /uolstore/home/users/sc23oy/ros2_ws/build/lab3/build install --record /uolstore/home/users/sc23oy/ros2_ws/build/lab3/install.log --single-version-externally-managed

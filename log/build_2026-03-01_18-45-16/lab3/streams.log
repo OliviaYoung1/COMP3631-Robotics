@@ -1,0 +1,26 @@
+[3.844s] Invoking command in '/uolstore/home/users/sc23oy/ros2_ws/src/lab3': PYTHONPATH=/uolstore/home/users/sc23oy/ros2_ws/build/lab3/prefix_override:/uolstore/home/users/sc23oy/ros2_ws/install/lab3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lab3 build --build-base /uolstore/home/users/sc23oy/ros2_ws/build/lab3/build install --record /uolstore/home/users/sc23oy/ros2_ws/build/lab3/install.log --single-version-externally-managed
+[4.446s] running egg_info
+[4.448s] writing ../../build/lab3/lab3.egg-info/PKG-INFO
+[4.452s] writing dependency_links to ../../build/lab3/lab3.egg-info/dependency_links.txt
+[4.454s] writing entry points to ../../build/lab3/lab3.egg-info/entry_points.txt
+[4.457s] writing requirements to ../../build/lab3/lab3.egg-info/requires.txt
+[4.460s] writing top-level names to ../../build/lab3/lab3.egg-info/top_level.txt
+[4.467s] reading manifest file '../../build/lab3/lab3.egg-info/SOURCES.txt'
+[4.474s] writing manifest file '../../build/lab3/lab3.egg-info/SOURCES.txt'
+[4.474s] running build
+[4.475s] running build_py
+[4.475s] copying lab3/exercise2.py -> /uolstore/home/users/sc23oy/ros2_ws/build/lab3/build/lib/lab3
+[4.481s] running install
+[4.482s] running install_lib
+[4.488s] copying /uolstore/home/users/sc23oy/ros2_ws/build/lab3/build/lib/lab3/exercise2.py -> /uolstore/home/users/sc23oy/ros2_ws/install/lab3/lib/python3.10/site-packages/lab3
+[4.496s] byte-compiling /uolstore/home/users/sc23oy/ros2_ws/install/lab3/lib/python3.10/site-packages/lab3/exercise2.py to exercise2.cpython-310.pyc
+[4.503s] running install_data
+[4.505s] running install_egg_info
+[4.510s] removing '/uolstore/home/users/sc23oy/ros2_ws/install/lab3/lib/python3.10/site-packages/lab3-0.0.0-py3.10.egg-info' (and everything under it)
+[4.520s] Copying ../../build/lab3/lab3.egg-info to /uolstore/home/users/sc23oy/ros2_ws/install/lab3/lib/python3.10/site-packages/lab3-0.0.0-py3.10.egg-info
+[4.558s] running install_scripts
+[4.596s] Installing exercise1 script to /uolstore/home/users/sc23oy/ros2_ws/install/lab3/lib/lab3
+[4.598s] Installing exercise2 script to /uolstore/home/users/sc23oy/ros2_ws/install/lab3/lib/lab3
+[4.600s] Installing firstwalk script to /uolstore/home/users/sc23oy/ros2_ws/install/lab3/lib/lab3
+[4.604s] writing list of installed files to '/uolstore/home/users/sc23oy/ros2_ws/build/lab3/install.log'
+[4.920s] Invoked command in '/uolstore/home/users/sc23oy/ros2_ws/src/lab3' returned '0': PYTHONPATH=/uolstore/home/users/sc23oy/ros2_ws/build/lab3/prefix_override:/uolstore/home/users/sc23oy/ros2_ws/install/lab3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lab3 build --build-base /uolstore/home/users/sc23oy/ros2_ws/build/lab3/build install --record /uolstore/home/users/sc23oy/ros2_ws/build/lab3/install.log --single-version-externally-managed

@@ -1,0 +1,21 @@
+[0.232s] Invoking command in '/uolstore/home/users/sc23oy/ros2_ws/build/turtlebot3_fake_node': PS1=[COMP3631] Singularity> \w $ /usr/bin/cmake /uolstore/home/users/sc23oy/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_fake_node
+[1.008s] -- Configuring incomplete, errors occurred!
+[1.008s] See also "/uolstore/home/users/sc23oy/ros2_ws/build/turtlebot3_fake_node/CMakeFiles/CMakeOutput.log".
+[1.008s] [31mCMake Error at CMakeLists.txt:18 (find_package):
+[1.008s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.008s]   has asked CMake to find a package configuration file provided by
+[1.008s]   "ament_cmake", but CMake did not find one.
+[1.008s] 
+[1.008s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.008s]   any of the following names:
+[1.009s] 
+[1.009s]     ament_cmakeConfig.cmake
+[1.009s]     ament_cmake-config.cmake
+[1.009s] 
+[1.009s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.009s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.009s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.009s]   has been installed.
+[1.009s] 
+[1.009s] [0m
+[1.012s] Invoked command in '/uolstore/home/users/sc23oy/ros2_ws/build/turtlebot3_fake_node' returned '1': PS1=[COMP3631] Singularity> \w $ /usr/bin/cmake /uolstore/home/users/sc23oy/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_fake_node

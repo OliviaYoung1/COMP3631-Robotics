@@ -1,0 +1,461 @@
+[0.475s] Invoking command in '/uolstore/home/users/sc23oy/ros2_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=[COMP3631] Singularity> \w $ /usr/bin/cmake /uolstore/home/users/sc23oy/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo
+[1.646s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.646s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.646s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.646s] -- Checking for module 'bullet>=2.82'
+[1.646s] --   Found bullet, version 3.05
+[1.647s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.647s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.647s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.647s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[1.647s]   does not match the name of the calling package (gazebo).  This can lead to
+[1.647s]   problems in calling code that expects `find_package` result variables
+[1.647s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.648s] Call Stack (most recent call first):
+[1.648s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[1.648s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[1.648s]   CMakeLists.txt:23 (find_package)
+[1.648s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.648s] [0m
+[1.649s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.289s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[2.566s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.584s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.601s] -- Searching for dependencies of ignition-math6
+[2.610s] -- Looking for OGRE...
+[2.611s] -- OGRE_PREFIX_WATCH changed.
+[2.618s] -- Checking for module 'OGRE'
+[2.639s] --   Found OGRE, version 1.9.0
+[2.693s] -- Found Ogre Ghadamon (1.9.0)
+[2.709s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.724s] -- Looking for OGRE_Paging...
+[2.732s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.732s] -- Looking for OGRE_Terrain...
+[2.739s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.739s] -- Looking for OGRE_Property...
+[2.747s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.747s] -- Looking for OGRE_RTShaderSystem...
+[2.755s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.755s] -- Looking for OGRE_Volume...
+[2.763s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.763s] -- Looking for OGRE_Overlay...
+[2.770s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.975s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.981s] -- Looking for ignition-transport8 -- found version 8.2.1
+[2.982s] -- Searching for dependencies of ignition-transport8
+[3.022s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[3.048s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[3.055s] -- Checking for module 'libzmq >= 4'
+[3.084s] --   Found libzmq , version 4.3.4
+[3.144s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[3.154s] -- Checking for module 'uuid'
+[3.173s] --   Found uuid, version 2.37.2
+[3.221s] -- Found UUID: TRUE  
+[3.230s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.231s] -- Searching for dependencies of ignition-msgs5
+[3.277s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.284s] -- Checking for module 'tinyxml2'
+[3.303s] --   Found tinyxml2, version 9.0.0
+[3.352s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.361s] -- Looking for ignition-common3 -- found version 3.14.0
+[3.362s] -- Searching for dependencies of ignition-common3
+[3.363s] -- Looking for dlfcn.h - found
+[3.365s] -- Looking for libdl - found
+[3.367s] -- Found DL: TRUE  
+[3.411s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[3.412s] -- Searching for <ignition-common3> component [graphics]
+[3.418s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[3.419s] -- Searching for dependencies of ignition-common3-graphics
+[3.420s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.427s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[3.428s] -- Searching for dependencies of ignition-fuel_tools4
+[3.552s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[3.571s] -- Checking for module 'jsoncpp'
+[3.592s] --   Found jsoncpp, version 1.9.5
+[3.638s] -- Found JSONCPP: TRUE  
+[3.649s] -- Checking for module 'libzip'
+[3.673s] --   Found libzip, version 1.7.3
+[3.717s] -- Found ZIP: TRUE  
+[3.718s] -- Looking for ignition-common3 -- found version 3.14.0
+[3.719s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.720s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.738s] -- Found gazebo_ros_pkgs: 3.7.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[3.742s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.815s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.826s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.844s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.871s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.915s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.100s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[4.227s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[4.338s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.344s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.525s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.574s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.670s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.695s] -- Found Threads: TRUE  
+[4.905s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.039s] -- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)
+[5.335s] -- Configuring done
+[6.394s] -- Generating done
+[6.437s] -- Build files have been written to: /uolstore/home/users/sc23oy/ros2_ws/build/turtlebot3_gazebo
+[6.455s] Invoked command in '/uolstore/home/users/sc23oy/ros2_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=[COMP3631] Singularity> \w $ /usr/bin/cmake /uolstore/home/users/sc23oy/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo
+[6.465s] Invoking command in '/uolstore/home/users/sc23oy/ros2_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=[COMP3631] Singularity> \w $ /usr/bin/cmake --build /uolstore/home/users/sc23oy/ros2_ws/build/turtlebot3_gazebo -- -j48 -l48
+[6.487s] gmake: Warning: File 'Makefile' has modification time 6.6 s in the future
+[6.546s] gmake[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 6.6 s in the future
+[6.557s] gmake[2]: Warning: File 'CMakeFiles/obstacle1.dir/flags.make' has modification time 6.4 s in the future
+[6.557s] gmake[2]: Warning: File 'CMakeFiles/turtlebot3_drive.dir/flags.make' has modification time 5.6 s in the future
+[6.557s] gmake[2]: Warning: File 'CMakeFiles/obstacle2.dir/flags.make' has modification time 6.4 s in the future
+[6.558s] gmake[2]: Warning: File 'CMakeFiles/obstacles.dir/flags.make' has modification time 6.5 s in the future
+[6.578s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.578s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.578s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.578s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.585s] gmake[2]: Warning: File 'CMakeFiles/obstacle1.dir/flags.make' has modification time 6.4 s in the future
+[6.586s] gmake[2]: Warning: File 'CMakeFiles/turtlebot3_drive.dir/flags.make' has modification time 5.6 s in the future
+[6.586s] gmake[2]: Warning: File 'CMakeFiles/obstacle2.dir/flags.make' has modification time 6.4 s in the future
+[6.587s] gmake[2]: Warning: File 'CMakeFiles/obstacles.dir/flags.make' has modification time 6.5 s in the future
+[6.608s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o[0m
+[6.608s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[6.608s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o[0m
+[6.608s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o[0m
+[20.971s] [ 62%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[21.724s] [ 75%] [32m[1mLinking CXX shared library libobstacle1.so[0m
+[21.782s] [ 87%] [32m[1mLinking CXX shared library libobstacles.so[0m
+[21.794s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[21.817s] [ 87%] Built target turtlebot3_drive
+[22.356s] [100%] [32m[1mLinking CXX shared library libobstacle2.so[0m
+[22.795s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[22.832s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[22.832s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[22.834s] [100%] Built target obstacle2
+[22.850s] [100%] Built target obstacle1
+[22.859s] [100%] Built target obstacles
+[22.860s] gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+[22.885s] gmake: warning:  Clock skew detected.  Your build may be incomplete.
+[22.888s] Invoked command in '/uolstore/home/users/sc23oy/ros2_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=[COMP3631] Singularity> \w $ /usr/bin/cmake --build /uolstore/home/users/sc23oy/ros2_ws/build/turtlebot3_gazebo -- -j48 -l48
+[22.957s] Invoking command in '/uolstore/home/users/sc23oy/ros2_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=[COMP3631] Singularity> \w $ /usr/bin/cmake --install /uolstore/home/users/sc23oy/ros2_ws/build/turtlebot3_gazebo
+[22.970s] -- Install configuration: ""
+[22.974s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive
+[23.069s] -- Set runtime path of "/uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive" to ""
+[23.070s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch
+[23.075s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py
+[23.083s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
+[23.090s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py
+[23.097s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py
+[23.104s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py
+[23.112s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py
+[23.119s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py
+[23.127s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py
+[23.134s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_panorama.launch.py
+[23.142s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_rgb_world.launch.py
+[23.149s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_space.launch.py
+[23.156s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py
+[23.164s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models
+[23.169s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/brick_box_3x1x3
+[23.174s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/brick_box_3x1x3/materials
+[23.178s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/brick_box_3x1x3/materials/scripts
+[23.183s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/brick_box_3x1x3/materials/scripts/brick_box.material
+[23.191s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/brick_box_3x1x3/materials/textures
+[23.195s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/brick_box_3x1x3/materials/textures/simple_box.png
+[23.203s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/brick_box_3x1x3/meshes
+[23.207s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/brick_box_3x1x3/meshes/simple_box.dae
+[23.216s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/brick_box_3x1x3/model-1_3.sdf
+[23.223s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/brick_box_3x1x3/model-1_4.sdf
+[23.230s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/brick_box_3x1x3/model.config
+[23.237s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/brick_box_3x1x3/model.sdf
+[23.245s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/green_image
+[23.248s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/green_image/materials
+[23.253s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/green_image/materials/scripts
+[23.258s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/green_image/materials/scripts/green_image.material
+[23.265s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/green_image/materials/textures
+[23.270s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/green_image/materials/textures/green_image.jpg
+[23.280s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/green_image/model.config
+[23.287s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/green_image/model.sdf
+[23.294s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_medium
+[23.298s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_medium/materials
+[23.303s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_medium/materials/scripts
+[23.308s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_medium/materials/scripts/grey_wall.material
+[23.314s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_medium/materials/textures
+[23.319s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_medium/materials/textures/dull_gray.png
+[23.327s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_medium/model-1_3.sdf
+[23.334s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_medium/model-1_4.sdf
+[23.342s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_medium/model.config
+[23.349s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_medium/model.sdf
+[23.356s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_micro
+[23.361s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_micro/materials
+[23.365s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_micro/materials/scripts
+[23.371s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_micro/materials/scripts/grey_wall.material
+[23.378s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_micro/materials/textures
+[23.383s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_micro/materials/textures/dull_gray.png
+[23.390s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_micro/model-1_3.sdf
+[23.397s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_micro/model-1_4.sdf
+[23.404s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_micro/model.config
+[23.411s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_micro/model.sdf
+[23.417s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_small
+[23.421s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_small/materials
+[23.426s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_small/materials/scripts
+[23.431s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_small/materials/scripts/grey_wall.material
+[23.438s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_small/materials/textures
+[23.442s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_small/materials/textures/dull_gray.png
+[23.451s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_small/model-1_3.sdf
+[23.457s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_small/model-1_4.sdf
+[23.464s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_small/model.config
+[23.472s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_small/model.sdf
+[23.479s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_smaller
+[23.483s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_smaller/materials
+[23.487s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_smaller/materials/scripts
+[23.492s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_smaller/materials/scripts/grey_wall.material
+[23.498s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_smaller/materials/textures
+[23.503s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_smaller/materials/textures/dull_gray.png
+[23.510s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_smaller/model-1_3.sdf
+[23.518s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_smaller/model-1_4.sdf
+[23.525s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_smaller/model.config
+[23.532s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_smaller/model.sdf
+[23.539s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_tinier
+[23.543s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_tinier/materials
+[23.547s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_tinier/materials/scripts
+[23.552s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_tinier/materials/scripts/grey_wall.material
+[23.559s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_tinier/materials/textures
+[23.565s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_tinier/materials/textures/dull_gray.png
+[23.573s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_tinier/model-1_3.sdf
+[23.580s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_tinier/model-1_4.sdf
+[23.587s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_tinier/model.config
+[23.594s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_tinier/model.sdf
+[23.600s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_tiny
+[23.604s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_tiny/materials
+[23.609s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_tiny/materials/scripts
+[23.614s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_tiny/materials/scripts/grey_wall.material
+[23.621s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_tiny/materials/textures
+[23.626s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_tiny/materials/textures/dull_gray.png
+[23.634s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_tiny/model-1_3.sdf
+[23.641s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_tiny/model-1_4.sdf
+[23.648s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_tiny/model.config
+[23.655s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grey_wall_tiny/model.sdf
+[23.662s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/my_grey_wall
+[23.666s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/my_grey_wall/materials
+[23.671s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/my_grey_wall/materials/scripts
+[23.676s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/my_grey_wall/materials/scripts/brick_box.material
+[23.683s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/my_grey_wall/materials/scripts/my_grey_wall.material
+[23.690s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/my_grey_wall/materials/scripts/space_box.material
+[23.697s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/my_grey_wall/materials/textures
+[23.701s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/my_grey_wall/materials/textures/Untitled.jpg
+[23.709s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/my_grey_wall/materials/textures/simple_box.jpg
+[23.717s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/my_grey_wall/materials/textures/simple_box.png
+[23.724s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/my_grey_wall/materials/textures/simple_box.png.old
+[23.782s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/my_grey_wall/materials/textures/simple_box1.png
+[23.942s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/my_grey_wall/materials/textures/simple_box2.png
+[23.951s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/my_grey_wall/materials/textures/spacecraftwall.jpeg
+[23.959s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/my_grey_wall/materials/textures/texture.jpg
+[24.012s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/my_grey_wall/meshes
+[24.017s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/my_grey_wall/meshes/simple_box.dae
+[24.025s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/my_grey_wall/model-1_3.sdf
+[24.033s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/my_grey_wall/model-1_4.sdf
+[24.039s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/my_grey_wall/model.config
+[24.047s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/my_grey_wall/model.sdf
+[24.054s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/panoframe
+[24.058s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/panoframe/materials
+[24.063s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/panoframe/materials/scripts
+[24.067s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/panoframe/materials/scripts/repeated.material
+[24.075s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/panoframe/materials/textures
+[24.080s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/panoframe/materials/textures/scene.jpg
+[24.093s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/panoframe/model.config
+[24.099s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/panoframe/model.sdf
+[24.106s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/panorama
+[24.110s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/panorama/materials
+[24.114s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/panorama/materials/scripts
+[24.120s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/panorama/materials/scripts/repeated.material
+[24.127s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/panorama/materials/textures
+[24.131s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/panorama/materials/textures/2.jpg
+[24.144s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/panorama/materials/textures/scene.jpg
+[24.156s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/panorama/materials/textures/scene_old.jpg
+[24.164s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/panorama/model.config
+[24.171s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/panorama/model.sdf
+[24.178s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/poster
+[24.182s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/poster/materials
+[24.186s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/poster/materials/scripts
+[24.191s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/poster/materials/scripts/repeated.material
+[24.198s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/poster/materials/textures
+[24.202s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/poster/materials/textures/poster.png
+[24.215s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/poster/model.config
+[24.222s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/poster/model.sdf
+[24.229s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/red_image
+[24.234s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/red_image/materials
+[24.238s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/red_image/materials/scripts
+[24.243s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/red_image/materials/scripts/red_image.material
+[24.250s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/red_image/materials/textures
+[24.254s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/red_image/materials/textures/red_image.jpg
+[24.264s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/red_image/model.config
+[24.271s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/red_image/model.sdf
+[24.278s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/red_image/red_image
+[24.282s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/red_image/red_image/materials
+[24.287s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/red_image/red_image/materials/scripts
+[24.292s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/red_image/red_image/materials/scripts/red_image.material
+[24.298s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/red_image/red_image/materials/textures
+[24.303s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/red_image/red_image/materials/textures/red_image.jpg
+[24.313s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/red_image/red_image/model.config
+[24.319s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/red_image/red_image/model.sdf
+[24.326s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/space_box_3x1x3
+[24.330s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/space_box_3x1x3/materials
+[24.335s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/space_box_3x1x3/materials/scripts
+[24.340s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/space_box_3x1x3/materials/scripts/brick_box.material
+[24.347s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/space_box_3x1x3/materials/scripts/space_box.material
+[24.354s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/space_box_3x1x3/materials/textures
+[24.359s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/space_box_3x1x3/materials/textures/Untitled.jpg
+[24.367s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/space_box_3x1x3/materials/textures/simple_box.jpg
+[24.374s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/space_box_3x1x3/materials/textures/simple_box.png
+[24.381s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/space_box_3x1x3/materials/textures/simple_box.png.old
+[24.438s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/space_box_3x1x3/materials/textures/simple_box1.png
+[24.597s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/space_box_3x1x3/materials/textures/simple_box2.png
+[24.605s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/space_box_3x1x3/materials/textures/spacecraftwall.jpeg
+[24.612s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/space_box_3x1x3/materials/textures/texture.jpg
+[24.664s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/space_box_3x1x3/meshes
+[24.668s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/space_box_3x1x3/meshes/simple_box.dae
+[24.677s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/space_box_3x1x3/model-1_3.sdf
+[24.684s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/space_box_3x1x3/model-1_4.sdf
+[24.692s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/space_box_3x1x3/model.config
+[24.699s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/space_box_3x1x3/model.sdf
+[24.706s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger
+[24.710s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes
+[24.714s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/bases
+[24.720s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/bases/burger_base.stl
+[24.758s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/bases/waffle_base.stl
+[24.856s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/bases/waffle_base_for_open_manipulator.stl
+[24.922s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/bases/waffle_pi_base.stl
+[24.986s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/bases/waffle_pi_base_for_open_manipulator.stl
+[25.049s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/burger_base.dae
+[25.057s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/lds.dae
+[25.066s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/sensors
+[25.071s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/sensors/astra.dae
+[25.237s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/sensors/astra.jpg
+[25.247s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/sensors/lds.stl
+[25.269s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/sensors/r200.dae
+[25.281s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/sensors/r200.jpg
+[25.289s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/tire.dae
+[25.297s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/wheels
+[25.301s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/wheels/left_tire.stl
+[25.329s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/wheels/right_tire.stl
+[25.357s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf
+[25.364s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config
+[25.371s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf
+[25.379s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common
+[25.383s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes
+[25.388s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/burger_base.dae
+[25.396s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/lds.dae
+[25.404s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/r200.dae
+[25.416s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/tire.dae
+[25.425s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_base.dae
+[25.432s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_pi_base.dae
+[25.440s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/model.config
+[25.447s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world
+[25.451s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box
+[25.456s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config
+[25.463s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf
+[25.470s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls
+[25.475s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config
+[25.483s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf
+[25.491s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config
+[25.497s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf
+[25.504s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1
+[25.509s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config
+[25.516s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf
+[25.523s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2
+[25.528s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config
+[25.535s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf
+[25.542s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin
+[25.547s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt
+[25.554s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc
+[25.560s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc
+[25.567s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc
+[25.573s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles
+[25.578s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config
+[25.585s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf
+[25.593s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house
+[25.596s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config
+[25.603s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf
+[25.615s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle
+[25.619s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf
+[25.628s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config
+[25.634s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf
+[25.642s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi
+[25.646s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf
+[25.654s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config
+[25.661s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf
+[25.669s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world
+[25.673s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes
+[25.677s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+[25.685s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae
+[25.693s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf
+[25.700s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config
+[25.707s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf
+[25.715s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/window1
+[25.719s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/window1/materials
+[25.723s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/window1/materials/scripts
+[25.728s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/window1/materials/scripts/repeated.material
+[25.735s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/window1/materials/textures
+[25.740s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/window1/materials/textures/1.jpg
+[25.752s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/window1/materials/textures/2.jpg
+[25.764s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/window1/materials/textures/3.jpg
+[25.775s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/window1/model.config
+[25.783s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/window1/model.sdf
+[25.790s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/window2
+[25.794s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/window2/materials
+[25.798s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/window2/materials/scripts
+[25.803s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/window2/materials/scripts/repeated.material
+[25.810s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/window2/materials/textures
+[25.815s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/window2/materials/textures/1.jpg
+[25.827s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/window2/materials/textures/2.jpg
+[25.838s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/window2/materials/textures/3.jpg
+[25.849s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/window2/model.config
+[25.856s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/window2/model.sdf
+[25.862s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/window3
+[25.867s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/window3/materials
+[25.872s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/window3/materials/scripts
+[25.877s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/window3/materials/scripts/repeated.material
+[25.884s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/window3/materials/textures
+[25.889s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/window3/materials/textures/1.jpg
+[25.899s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/window3/materials/textures/2.jpg
+[25.910s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/window3/materials/textures/3.jpg
+[25.921s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/window3/model.config
+[25.928s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/window3/model.sdf
+[25.935s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz
+[25.939s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
+[25.947s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf
+[25.951s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/common_properties.urdf
+[25.959s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger.urdf
+[25.967s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf
+[25.975s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle_pi.urdf
+[25.982s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds
+[25.986s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_world.world
+[25.994s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/rgb.world
+[26.001s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1.world
+[26.008s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2.world
+[26.015s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3.world
+[26.023s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4.world
+[26.030s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_house.world
+[26.037s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_panorama
+[26.042s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_panorama/turtlebot3_panorama.world
+[26.049s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_space
+[26.054s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_space/turtlebot3_space.world
+[26.062s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_world.world
+[26.069s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/include/
+[26.072s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo
+[26.076s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp
+[26.088s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo
+[26.098s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo
+[26.108s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh
+[26.114s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv
+[26.122s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh
+[26.128s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv
+[26.135s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash
+[26.143s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh
+[26.152s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh
+[26.160s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv
+[26.168s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv
+[26.180s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo
+[26.188s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.195s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.202s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+[26.209s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
+[26.216s] -- Installing: /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml
+[26.227s] Invoked command in '/uolstore/home/users/sc23oy/ros2_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=[COMP3631] Singularity> \w $ /usr/bin/cmake --install /uolstore/home/users/sc23oy/ros2_ws/build/turtlebot3_gazebo
