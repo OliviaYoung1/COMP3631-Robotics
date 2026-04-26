@@ -11,6 +11,7 @@
 /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_rgb_world.launch.py
 /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_space.launch.py
 /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py
+/uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_task_world_2026.launch.py
 /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/brick_box_3x1x3/materials/scripts/brick_box.material
 /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/brick_box_3x1x3/materials/textures/simple_box.png
 /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/brick_box_3x1x3/meshes/simple_box.dae
@@ -183,6 +184,15 @@
 /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/window3/materials/textures/3.jpg
 /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/window3/model.config
 /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/window3/model.sdf
+/uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/box_blue/model.config
+/uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/box_blue/model.sdf
+/uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/box_green/model.config
+/uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/box_green/model.sdf
+/uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/box_red/model.config
+/uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/box_red/model.sdf
+/uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/first_2015_trash_can/meshes/trash_can.dae
+/uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/first_2015_trash_can/model.config
+/uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/first_2015_trash_can/model.sdf
 /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
 /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/common_properties.urdf
 /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger.urdf
@@ -198,6 +208,7 @@
 /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_panorama/turtlebot3_panorama.world
 /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_space/turtlebot3_space.world
 /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_world.world
+/uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/task_world_2026.world
 /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp
 /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo
 /uolstore/home/users/sc23oy/ros2_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo

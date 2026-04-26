@@ -1,0 +1,24 @@
+[5.081s] Invoking command in '/uolstore/home/users/sc23oy/ros2_ws/src/lab5': PYTHONPATH=/uolstore/home/users/sc23oy/ros2_ws/src/build/lab5/prefix_override:/uolstore/home/users/sc23oy/ros2_ws/src/install/lab5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lab5 build --build-base /uolstore/home/users/sc23oy/ros2_ws/src/build/lab5/build install --record /uolstore/home/users/sc23oy/ros2_ws/src/build/lab5/install.log --single-version-externally-managed
+[5.569s] running egg_info
+[5.570s] writing ../build/lab5/lab5.egg-info/PKG-INFO
+[5.574s] writing dependency_links to ../build/lab5/lab5.egg-info/dependency_links.txt
+[5.577s] writing entry points to ../build/lab5/lab5.egg-info/entry_points.txt
+[5.580s] writing requirements to ../build/lab5/lab5.egg-info/requires.txt
+[5.583s] writing top-level names to ../build/lab5/lab5.egg-info/top_level.txt
+[5.594s] reading manifest file '../build/lab5/lab5.egg-info/SOURCES.txt'
+[5.599s] writing manifest file '../build/lab5/lab5.egg-info/SOURCES.txt'
+[5.603s] running build
+[5.603s] running build_py
+[5.610s] running install
+[5.610s] running install_lib
+[5.620s] running install_data
+[5.622s] running install_egg_info
+[5.625s] removing '/uolstore/home/users/sc23oy/ros2_ws/src/install/lab5/lib/python3.10/site-packages/lab5-0.0.0-py3.10.egg-info' (and everything under it)
+[5.633s] Copying ../build/lab5/lab5.egg-info to /uolstore/home/users/sc23oy/ros2_ws/src/install/lab5/lib/python3.10/site-packages/lab5-0.0.0-py3.10.egg-info
+[5.670s] running install_scripts
+[5.707s] Installing first_step script to /uolstore/home/users/sc23oy/ros2_ws/src/install/lab5/lib/lab5
+[5.710s] Installing fourth_step script to /uolstore/home/users/sc23oy/ros2_ws/src/install/lab5/lib/lab5
+[5.712s] Installing second_step script to /uolstore/home/users/sc23oy/ros2_ws/src/install/lab5/lib/lab5
+[5.715s] Installing third_step script to /uolstore/home/users/sc23oy/ros2_ws/src/install/lab5/lib/lab5
+[5.718s] writing list of installed files to '/uolstore/home/users/sc23oy/ros2_ws/src/build/lab5/install.log'
+[5.903s] Invoked command in '/uolstore/home/users/sc23oy/ros2_ws/src/lab5' returned '0': PYTHONPATH=/uolstore/home/users/sc23oy/ros2_ws/src/build/lab5/prefix_override:/uolstore/home/users/sc23oy/ros2_ws/src/install/lab5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lab5 build --build-base /uolstore/home/users/sc23oy/ros2_ws/src/build/lab5/build install --record /uolstore/home/users/sc23oy/ros2_ws/src/build/lab5/install.log --single-version-externally-managed

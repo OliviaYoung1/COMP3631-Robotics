@@ -1,0 +1,21 @@
+[5.258s] Invoking command in '/uolstore/home/users/sc23oy/ros2_ws/src/lab1': PYTHONPATH=/uolstore/home/users/sc23oy/ros2_ws/src/build/lab1/prefix_override:/uolstore/home/users/sc23oy/ros2_ws/src/install/lab1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lab1 build --build-base /uolstore/home/users/sc23oy/ros2_ws/src/build/lab1/build install --record /uolstore/home/users/sc23oy/ros2_ws/src/build/lab1/install.log --single-version-externally-managed
+[5.766s] running egg_info
+[5.767s] writing ../build/lab1/lab1.egg-info/PKG-INFO
+[5.769s] writing dependency_links to ../build/lab1/lab1.egg-info/dependency_links.txt
+[5.772s] writing entry points to ../build/lab1/lab1.egg-info/entry_points.txt
+[5.774s] writing requirements to ../build/lab1/lab1.egg-info/requires.txt
+[5.776s] writing top-level names to ../build/lab1/lab1.egg-info/top_level.txt
+[5.784s] reading manifest file '../build/lab1/lab1.egg-info/SOURCES.txt'
+[5.787s] writing manifest file '../build/lab1/lab1.egg-info/SOURCES.txt'
+[5.789s] running build
+[5.789s] running build_py
+[5.791s] running install
+[5.792s] running install_lib
+[5.796s] running install_data
+[5.798s] running install_egg_info
+[5.801s] removing '/uolstore/home/users/sc23oy/ros2_ws/src/install/lab1/lib/python3.10/site-packages/lab1-0.0.0-py3.10.egg-info' (and everything under it)
+[5.808s] Copying ../build/lab1/lab1.egg-info to /uolstore/home/users/sc23oy/ros2_ws/src/install/lab1/lib/python3.10/site-packages/lab1-0.0.0-py3.10.egg-info
+[5.843s] running install_scripts
+[5.883s] Installing hello script to /uolstore/home/users/sc23oy/ros2_ws/src/install/lab1/lib/lab1
+[5.886s] writing list of installed files to '/uolstore/home/users/sc23oy/ros2_ws/src/build/lab1/install.log'
+[6.000s] Invoked command in '/uolstore/home/users/sc23oy/ros2_ws/src/lab1' returned '0': PYTHONPATH=/uolstore/home/users/sc23oy/ros2_ws/src/build/lab1/prefix_override:/uolstore/home/users/sc23oy/ros2_ws/src/install/lab1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lab1 build --build-base /uolstore/home/users/sc23oy/ros2_ws/src/build/lab1/build install --record /uolstore/home/users/sc23oy/ros2_ws/src/build/lab1/install.log --single-version-externally-managed

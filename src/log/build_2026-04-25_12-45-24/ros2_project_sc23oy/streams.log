@@ -1,0 +1,24 @@
+[4.927s] Invoking command in '/uolstore/home/users/sc23oy/ros2_ws/src/ros2_project_sc23oy': PYTHONPATH=/uolstore/home/users/sc23oy/ros2_ws/src/build/ros2_project_sc23oy/prefix_override:/uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros2_project_sc23oy build --build-base /uolstore/home/users/sc23oy/ros2_ws/src/build/ros2_project_sc23oy/build install --record /uolstore/home/users/sc23oy/ros2_ws/src/build/ros2_project_sc23oy/install.log --single-version-externally-managed
+[5.392s] running egg_info
+[5.393s] writing ../build/ros2_project_sc23oy/ros2_project_sc23oy.egg-info/PKG-INFO
+[5.396s] writing dependency_links to ../build/ros2_project_sc23oy/ros2_project_sc23oy.egg-info/dependency_links.txt
+[5.399s] writing entry points to ../build/ros2_project_sc23oy/ros2_project_sc23oy.egg-info/entry_points.txt
+[5.403s] writing requirements to ../build/ros2_project_sc23oy/ros2_project_sc23oy.egg-info/requires.txt
+[5.405s] writing top-level names to ../build/ros2_project_sc23oy/ros2_project_sc23oy.egg-info/top_level.txt
+[5.416s] reading manifest file '../build/ros2_project_sc23oy/ros2_project_sc23oy.egg-info/SOURCES.txt'
+[5.420s] writing manifest file '../build/ros2_project_sc23oy/ros2_project_sc23oy.egg-info/SOURCES.txt'
+[5.423s] running build
+[5.423s] running build_py
+[5.429s] running install
+[5.429s] running install_lib
+[5.439s] running install_data
+[5.442s] running install_egg_info
+[5.444s] removing '/uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/lib/python3.10/site-packages/ros2_project_sc23oy-0.0.0-py3.10.egg-info' (and everything under it)
+[5.453s] Copying ../build/ros2_project_sc23oy/ros2_project_sc23oy.egg-info to /uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/lib/python3.10/site-packages/ros2_project_sc23oy-0.0.0-py3.10.egg-info
+[5.493s] running install_scripts
+[5.525s] Installing first_step script to /uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/lib/ros2_project_sc23oy
+[5.527s] Installing fourth_step script to /uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/lib/ros2_project_sc23oy
+[5.531s] Installing second_step script to /uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/lib/ros2_project_sc23oy
+[5.532s] Installing third_step script to /uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/lib/ros2_project_sc23oy
+[5.536s] writing list of installed files to '/uolstore/home/users/sc23oy/ros2_ws/src/build/ros2_project_sc23oy/install.log'
+[5.860s] Invoked command in '/uolstore/home/users/sc23oy/ros2_ws/src/ros2_project_sc23oy' returned '0': PYTHONPATH=/uolstore/home/users/sc23oy/ros2_ws/src/build/ros2_project_sc23oy/prefix_override:/uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros2_project_sc23oy build --build-base /uolstore/home/users/sc23oy/ros2_ws/src/build/ros2_project_sc23oy/build install --record /uolstore/home/users/sc23oy/ros2_ws/src/build/ros2_project_sc23oy/install.log --single-version-externally-managed

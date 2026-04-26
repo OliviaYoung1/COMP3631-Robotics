@@ -1,0 +1,37 @@
+[5.082s] Invoking command in '/uolstore/home/users/sc23oy/ros2_ws/src/lab4': PYTHONPATH=/uolstore/home/users/sc23oy/ros2_ws/src/build/lab4/prefix_override:/uolstore/home/users/sc23oy/ros2_ws/src/install/lab4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lab4 build --build-base /uolstore/home/users/sc23oy/ros2_ws/src/build/lab4/build install --record /uolstore/home/users/sc23oy/ros2_ws/src/build/lab4/install.log --single-version-externally-managed
+[5.604s] running egg_info
+[5.605s] creating ../build/lab4/lab4.egg-info
+[5.606s] writing ../build/lab4/lab4.egg-info/PKG-INFO
+[5.609s] writing dependency_links to ../build/lab4/lab4.egg-info/dependency_links.txt
+[5.611s] writing entry points to ../build/lab4/lab4.egg-info/entry_points.txt
+[5.613s] writing requirements to ../build/lab4/lab4.egg-info/requires.txt
+[5.614s] writing top-level names to ../build/lab4/lab4.egg-info/top_level.txt
+[5.616s] writing manifest file '../build/lab4/lab4.egg-info/SOURCES.txt'
+[5.623s] reading manifest file '../build/lab4/lab4.egg-info/SOURCES.txt'
+[5.626s] writing manifest file '../build/lab4/lab4.egg-info/SOURCES.txt'
+[5.627s] running build
+[5.627s] running build_py
+[5.628s] creating /uolstore/home/users/sc23oy/ros2_ws/src/build/lab4/build
+[5.629s] creating /uolstore/home/users/sc23oy/ros2_ws/src/build/lab4/build/lib
+[5.630s] creating /uolstore/home/users/sc23oy/ros2_ws/src/build/lab4/build/lib/lab4
+[5.632s] copying lab4/__init__.py -> /uolstore/home/users/sc23oy/ros2_ws/src/build/lab4/build/lib/lab4
+[5.636s] copying lab4/go_to_specific_point_on_map.py -> /uolstore/home/users/sc23oy/ros2_ws/src/build/lab4/build/lib/lab4
+[5.641s] running install
+[5.641s] running install_lib
+[5.646s] creating /uolstore/home/users/sc23oy/ros2_ws/src/install/lab4/lib/python3.10/site-packages/lab4
+[5.648s] copying /uolstore/home/users/sc23oy/ros2_ws/src/build/lab4/build/lib/lab4/__init__.py -> /uolstore/home/users/sc23oy/ros2_ws/src/install/lab4/lib/python3.10/site-packages/lab4
+[5.651s] copying /uolstore/home/users/sc23oy/ros2_ws/src/build/lab4/build/lib/lab4/go_to_specific_point_on_map.py -> /uolstore/home/users/sc23oy/ros2_ws/src/install/lab4/lib/python3.10/site-packages/lab4
+[5.657s] byte-compiling /uolstore/home/users/sc23oy/ros2_ws/src/install/lab4/lib/python3.10/site-packages/lab4/__init__.py to __init__.cpython-310.pyc
+[5.661s] byte-compiling /uolstore/home/users/sc23oy/ros2_ws/src/install/lab4/lib/python3.10/site-packages/lab4/go_to_specific_point_on_map.py to go_to_specific_point_on_map.cpython-310.pyc
+[5.665s] running install_data
+[5.667s] creating /uolstore/home/users/sc23oy/ros2_ws/src/install/lab4/share/ament_index
+[5.668s] creating /uolstore/home/users/sc23oy/ros2_ws/src/install/lab4/share/ament_index/resource_index
+[5.669s] creating /uolstore/home/users/sc23oy/ros2_ws/src/install/lab4/share/ament_index/resource_index/packages
+[5.670s] copying resource/lab4 -> /uolstore/home/users/sc23oy/ros2_ws/src/install/lab4/share/ament_index/resource_index/packages
+[5.675s] copying package.xml -> /uolstore/home/users/sc23oy/ros2_ws/src/install/lab4/share/lab4
+[5.678s] running install_egg_info
+[5.682s] Copying ../build/lab4/lab4.egg-info to /uolstore/home/users/sc23oy/ros2_ws/src/install/lab4/lib/python3.10/site-packages/lab4-0.0.0-py3.10.egg-info
+[5.724s] running install_scripts
+[5.760s] Installing go_to_pose script to /uolstore/home/users/sc23oy/ros2_ws/src/install/lab4/lib/lab4
+[5.764s] writing list of installed files to '/uolstore/home/users/sc23oy/ros2_ws/src/build/lab4/install.log'
+[6.059s] Invoked command in '/uolstore/home/users/sc23oy/ros2_ws/src/lab4' returned '0': PYTHONPATH=/uolstore/home/users/sc23oy/ros2_ws/src/build/lab4/prefix_override:/uolstore/home/users/sc23oy/ros2_ws/src/install/lab4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lab4 build --build-base /uolstore/home/users/sc23oy/ros2_ws/src/build/lab4/build install --record /uolstore/home/users/sc23oy/ros2_ws/src/build/lab4/install.log --single-version-externally-managed

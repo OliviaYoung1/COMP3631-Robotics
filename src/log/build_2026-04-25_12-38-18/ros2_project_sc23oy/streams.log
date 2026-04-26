@@ -1,0 +1,61 @@
+[4.821s] Invoking command in '/uolstore/home/users/sc23oy/ros2_ws/src/ros2_project_sc23oy': PYTHONPATH=/uolstore/home/users/sc23oy/ros2_ws/src/build/ros2_project_sc23oy/prefix_override:/uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros2_project_sc23oy build --build-base /uolstore/home/users/sc23oy/ros2_ws/src/build/ros2_project_sc23oy/build install --record /uolstore/home/users/sc23oy/ros2_ws/src/build/ros2_project_sc23oy/install.log --single-version-externally-managed
+[5.370s] running egg_info
+[5.371s] creating ../build/ros2_project_sc23oy/ros2_project_sc23oy.egg-info
+[5.372s] writing ../build/ros2_project_sc23oy/ros2_project_sc23oy.egg-info/PKG-INFO
+[5.377s] writing dependency_links to ../build/ros2_project_sc23oy/ros2_project_sc23oy.egg-info/dependency_links.txt
+[5.380s] writing entry points to ../build/ros2_project_sc23oy/ros2_project_sc23oy.egg-info/entry_points.txt
+[5.382s] writing requirements to ../build/ros2_project_sc23oy/ros2_project_sc23oy.egg-info/requires.txt
+[5.383s] writing top-level names to ../build/ros2_project_sc23oy/ros2_project_sc23oy.egg-info/top_level.txt
+[5.386s] writing manifest file '../build/ros2_project_sc23oy/ros2_project_sc23oy.egg-info/SOURCES.txt'
+[5.396s] reading manifest file '../build/ros2_project_sc23oy/ros2_project_sc23oy.egg-info/SOURCES.txt'
+[5.399s] writing manifest file '../build/ros2_project_sc23oy/ros2_project_sc23oy.egg-info/SOURCES.txt'
+[5.400s] running build
+[5.401s] running build_py
+[5.402s] creating /uolstore/home/users/sc23oy/ros2_ws/src/build/ros2_project_sc23oy/build
+[5.402s] creating /uolstore/home/users/sc23oy/ros2_ws/src/build/ros2_project_sc23oy/build/lib
+[5.403s] creating /uolstore/home/users/sc23oy/ros2_ws/src/build/ros2_project_sc23oy/build/lib/ros2_project_sc23oy
+[5.405s] copying ros2_project_sc23oy/third_step.py -> /uolstore/home/users/sc23oy/ros2_ws/src/build/ros2_project_sc23oy/build/lib/ros2_project_sc23oy
+[5.411s] copying ros2_project_sc23oy/second_step.py -> /uolstore/home/users/sc23oy/ros2_ws/src/build/ros2_project_sc23oy/build/lib/ros2_project_sc23oy
+[5.416s] copying ros2_project_sc23oy/fourth_step.py -> /uolstore/home/users/sc23oy/ros2_ws/src/build/ros2_project_sc23oy/build/lib/ros2_project_sc23oy
+[5.422s] copying ros2_project_sc23oy/Skeleton_Code_First_Step.py -> /uolstore/home/users/sc23oy/ros2_ws/src/build/ros2_project_sc23oy/build/lib/ros2_project_sc23oy
+[5.427s] copying ros2_project_sc23oy/Skeleton_Code_Fourth_Step.py -> /uolstore/home/users/sc23oy/ros2_ws/src/build/ros2_project_sc23oy/build/lib/ros2_project_sc23oy
+[5.432s] copying ros2_project_sc23oy/Skeleton_Code_Second_Step.py -> /uolstore/home/users/sc23oy/ros2_ws/src/build/ros2_project_sc23oy/build/lib/ros2_project_sc23oy
+[5.436s] copying ros2_project_sc23oy/Skeleton_Code_Third_Step.py -> /uolstore/home/users/sc23oy/ros2_ws/src/build/ros2_project_sc23oy/build/lib/ros2_project_sc23oy
+[5.441s] copying ros2_project_sc23oy/__init__.py -> /uolstore/home/users/sc23oy/ros2_ws/src/build/ros2_project_sc23oy/build/lib/ros2_project_sc23oy
+[5.445s] copying ros2_project_sc23oy/first_step.py -> /uolstore/home/users/sc23oy/ros2_ws/src/build/ros2_project_sc23oy/build/lib/ros2_project_sc23oy
+[5.449s] running install
+[5.450s] running install_lib
+[5.454s] creating /uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/lib/python3.10/site-packages/ros2_project_sc23oy
+[5.456s] copying /uolstore/home/users/sc23oy/ros2_ws/src/build/ros2_project_sc23oy/build/lib/ros2_project_sc23oy/third_step.py -> /uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/lib/python3.10/site-packages/ros2_project_sc23oy
+[5.461s] copying /uolstore/home/users/sc23oy/ros2_ws/src/build/ros2_project_sc23oy/build/lib/ros2_project_sc23oy/second_step.py -> /uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/lib/python3.10/site-packages/ros2_project_sc23oy
+[5.467s] copying /uolstore/home/users/sc23oy/ros2_ws/src/build/ros2_project_sc23oy/build/lib/ros2_project_sc23oy/fourth_step.py -> /uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/lib/python3.10/site-packages/ros2_project_sc23oy
+[5.473s] copying /uolstore/home/users/sc23oy/ros2_ws/src/build/ros2_project_sc23oy/build/lib/ros2_project_sc23oy/Skeleton_Code_First_Step.py -> /uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/lib/python3.10/site-packages/ros2_project_sc23oy
+[5.478s] copying /uolstore/home/users/sc23oy/ros2_ws/src/build/ros2_project_sc23oy/build/lib/ros2_project_sc23oy/Skeleton_Code_Fourth_Step.py -> /uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/lib/python3.10/site-packages/ros2_project_sc23oy
+[5.485s] copying /uolstore/home/users/sc23oy/ros2_ws/src/build/ros2_project_sc23oy/build/lib/ros2_project_sc23oy/Skeleton_Code_Second_Step.py -> /uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/lib/python3.10/site-packages/ros2_project_sc23oy
+[5.490s] copying /uolstore/home/users/sc23oy/ros2_ws/src/build/ros2_project_sc23oy/build/lib/ros2_project_sc23oy/Skeleton_Code_Third_Step.py -> /uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/lib/python3.10/site-packages/ros2_project_sc23oy
+[5.496s] copying /uolstore/home/users/sc23oy/ros2_ws/src/build/ros2_project_sc23oy/build/lib/ros2_project_sc23oy/__init__.py -> /uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/lib/python3.10/site-packages/ros2_project_sc23oy
+[5.501s] copying /uolstore/home/users/sc23oy/ros2_ws/src/build/ros2_project_sc23oy/build/lib/ros2_project_sc23oy/first_step.py -> /uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/lib/python3.10/site-packages/ros2_project_sc23oy
+[5.509s] byte-compiling /uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/lib/python3.10/site-packages/ros2_project_sc23oy/third_step.py to third_step.cpython-310.pyc
+[5.516s] byte-compiling /uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/lib/python3.10/site-packages/ros2_project_sc23oy/second_step.py to second_step.cpython-310.pyc
+[5.523s] byte-compiling /uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/lib/python3.10/site-packages/ros2_project_sc23oy/fourth_step.py to fourth_step.cpython-310.pyc
+[5.529s] byte-compiling /uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/lib/python3.10/site-packages/ros2_project_sc23oy/Skeleton_Code_First_Step.py to Skeleton_Code_First_Step.cpython-310.pyc
+[5.534s] byte-compiling /uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/lib/python3.10/site-packages/ros2_project_sc23oy/Skeleton_Code_Fourth_Step.py to Skeleton_Code_Fourth_Step.cpython-310.pyc
+[5.540s] byte-compiling /uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/lib/python3.10/site-packages/ros2_project_sc23oy/Skeleton_Code_Second_Step.py to Skeleton_Code_Second_Step.cpython-310.pyc
+[5.545s] byte-compiling /uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/lib/python3.10/site-packages/ros2_project_sc23oy/Skeleton_Code_Third_Step.py to Skeleton_Code_Third_Step.cpython-310.pyc
+[5.550s] byte-compiling /uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/lib/python3.10/site-packages/ros2_project_sc23oy/__init__.py to __init__.cpython-310.pyc
+[5.555s] byte-compiling /uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/lib/python3.10/site-packages/ros2_project_sc23oy/first_step.py to first_step.cpython-310.pyc
+[5.561s] running install_data
+[5.562s] creating /uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/share/ament_index
+[5.563s] creating /uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/share/ament_index/resource_index
+[5.564s] creating /uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/share/ament_index/resource_index/packages
+[5.565s] copying resource/ros2_project_sc23oy -> /uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/share/ament_index/resource_index/packages
+[5.570s] copying package.xml -> /uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/share/ros2_project_sc23oy
+[5.573s] running install_egg_info
+[5.577s] Copying ../build/ros2_project_sc23oy/ros2_project_sc23oy.egg-info to /uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/lib/python3.10/site-packages/ros2_project_sc23oy-0.0.0-py3.10.egg-info
+[5.624s] running install_scripts
+[5.662s] Installing first_step script to /uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/lib/ros2_project_sc23oy
+[5.665s] Installing fourth_step script to /uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/lib/ros2_project_sc23oy
+[5.667s] Installing second_step script to /uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/lib/ros2_project_sc23oy
+[5.669s] Installing third_step script to /uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/lib/ros2_project_sc23oy
+[5.672s] writing list of installed files to '/uolstore/home/users/sc23oy/ros2_ws/src/build/ros2_project_sc23oy/install.log'
+[6.016s] Invoked command in '/uolstore/home/users/sc23oy/ros2_ws/src/ros2_project_sc23oy' returned '0': PYTHONPATH=/uolstore/home/users/sc23oy/ros2_ws/src/build/ros2_project_sc23oy/prefix_override:/uolstore/home/users/sc23oy/ros2_ws/src/install/ros2_project_sc23oy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros2_project_sc23oy build --build-base /uolstore/home/users/sc23oy/ros2_ws/src/build/ros2_project_sc23oy/build install --record /uolstore/home/users/sc23oy/ros2_ws/src/build/ros2_project_sc23oy/install.log --single-version-externally-managed

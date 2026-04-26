@@ -1,0 +1,24 @@
+[5.157s] Invoking command in '/uolstore/home/users/sc23oy/ros2_ws/src/lab2': PYTHONPATH=/uolstore/home/users/sc23oy/ros2_ws/src/build/lab2/prefix_override:/uolstore/home/users/sc23oy/ros2_ws/src/install/lab2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lab2 build --build-base /uolstore/home/users/sc23oy/ros2_ws/src/build/lab2/build install --record /uolstore/home/users/sc23oy/ros2_ws/src/build/lab2/install.log --single-version-externally-managed
+[5.653s] running egg_info
+[5.654s] writing ../build/lab2/lab2.egg-info/PKG-INFO
+[5.658s] writing dependency_links to ../build/lab2/lab2.egg-info/dependency_links.txt
+[5.662s] writing entry points to ../build/lab2/lab2.egg-info/entry_points.txt
+[5.665s] writing requirements to ../build/lab2/lab2.egg-info/requires.txt
+[5.669s] writing top-level names to ../build/lab2/lab2.egg-info/top_level.txt
+[5.679s] reading manifest file '../build/lab2/lab2.egg-info/SOURCES.txt'
+[5.686s] writing manifest file '../build/lab2/lab2.egg-info/SOURCES.txt'
+[5.687s] running build
+[5.687s] running build_py
+[5.690s] running install
+[5.690s] running install_lib
+[5.697s] running install_data
+[5.700s] running install_egg_info
+[5.703s] removing '/uolstore/home/users/sc23oy/ros2_ws/src/install/lab2/lib/python3.10/site-packages/lab2-0.0.0-py3.10.egg-info' (and everything under it)
+[5.712s] Copying ../build/lab2/lab2.egg-info to /uolstore/home/users/sc23oy/ros2_ws/src/install/lab2/lib/python3.10/site-packages/lab2-0.0.0-py3.10.egg-info
+[5.745s] running install_scripts
+[5.777s] Installing listener script to /uolstore/home/users/sc23oy/ros2_ws/src/install/lab2/lib/lab2
+[5.779s] Installing numeric_listener script to /uolstore/home/users/sc23oy/ros2_ws/src/install/lab2/lib/lab2
+[5.781s] Installing numeric_talker script to /uolstore/home/users/sc23oy/ros2_ws/src/install/lab2/lib/lab2
+[5.784s] Installing talker script to /uolstore/home/users/sc23oy/ros2_ws/src/install/lab2/lib/lab2
+[5.788s] writing list of installed files to '/uolstore/home/users/sc23oy/ros2_ws/src/build/lab2/install.log'
+[5.972s] Invoked command in '/uolstore/home/users/sc23oy/ros2_ws/src/lab2' returned '0': PYTHONPATH=/uolstore/home/users/sc23oy/ros2_ws/src/build/lab2/prefix_override:/uolstore/home/users/sc23oy/ros2_ws/src/install/lab2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lab2 build --build-base /uolstore/home/users/sc23oy/ros2_ws/src/build/lab2/build install --record /uolstore/home/users/sc23oy/ros2_ws/src/build/lab2/install.log --single-version-externally-managed

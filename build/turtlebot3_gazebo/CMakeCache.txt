@@ -594,7 +594,7 @@ Protobuf_PROTOC_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libprotoc.so
 Protobuf_PROTOC_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libprotoc.so
 
 //Name of the computer/site where compile is being run
-SITE:STRING=feng-linux-08.leeds.ac.uk
+SITE:STRING=feng-linux-07.leeds.ac.uk
 
 //The directory containing a CMake configuration file for Simbody.
 Simbody_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/simbody
